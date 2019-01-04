@@ -1,0 +1,16 @@
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.cantactList{
+    padding-right: 0px;
+    border-right: 1px solid #e0e0e0;
+    bottom: 0px;
+}
+.row.chatPanel.navbar-fixed-bottom {
+    position: fixed;
+    bottom: 5px;
+}
+.conversation{
+    border-bottom: 1px solid #e0e0e0;   
+}

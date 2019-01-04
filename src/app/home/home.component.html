@@ -1,0 +1,18 @@
+<app-header></app-header>
+
+<div class="d-flex flex-row">
+  <div class="list-group col-sm-2 cantactList" [style.height.px]="innerHeight">
+    <a class="list-group-item list-group-item-action">Item 1</a>
+    <a class="list-group-item list-group-item-action">Item 2</a>
+    <a class="list-group-item list-group-item-action">Item 3</a>
+    <a class="list-group-item list-group-item-action">Item 4</a>
+  </div>
+  <div class="col-sm-10 chatArea">
+      <div class="conversation" [style.height.px]="innerHeight-80">
+      </div>
+      <div class="p-2 d-flex flex-row">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+         <button type="button" class="btn btn-outline-dark"><mat-icon>send</mat-icon></button>
+        </div>
+  </div>
+</div>
